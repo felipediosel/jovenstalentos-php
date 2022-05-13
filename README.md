@@ -30,7 +30,7 @@ Quando utilizamos programação orientada a objetos, é normal que criemos class
 
 <h2>Funcionamento</h2>
 
-:page_facing_up: index.php: 
+:page_facing_up: index.php
 <br>
 <p>
   Todas as requisições do nosso projeto passam por este arquivo, portanto tenham cuidado ao alterar!
@@ -39,5 +39,29 @@ Quando utilizamos programação orientada a objetos, é normal que criemos class
   <br>
   Dessa forma ele é o único arquivo onde deve ser adicionado conteúdo na resposta da requisição. 
   <br>
-  Além disso, ele também inclui o autoloader no projeto, carrega as configs de ambiente.
+  Além disso, ele também inclui o autoloader no projeto e carrega as configs de ambiente.
+</p>
+
+:page_facing_up: routes.php
+<br>
+<p>
+  Identifica a página solicitada através da variável global <code>$_GET['pg']</code>, cria uma instância do controlador dessa página e renderiza o conteúdo para ser exibido.
+</p>
+
+:page_facing_up: config.php
+<br>
+<p>
+  Aqui devem ser passadas as informações referentes a conexão com o banco de dados (host, dbname, port), através da variável global <code>$_ENV</code>.
+</p>
+
+:file_folder: vendor
+<br>
+<p>
+  Essa pasta e seus arquivos foram gerados automaticamente, utilizando o gerador de dependências Composer. Nela estão os arquivos responsáveis pelo funcionamento do AutoLoad. Portanto, por favor não alterem o conteúdo dos arquivos desta pasta, de preferência nem abram ela.
+</p>
+
+:file_folder: app
+<br>
+<p>
+  Esta é a pasta principal do nosso projeto. A maioria dos arquivos estão aqui.
 </p>
