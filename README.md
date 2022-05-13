@@ -65,3 +65,25 @@ Quando utilizamos programação orientada a objetos, é normal que criemos class
 <p>
   Esta é a pasta principal do nosso projeto. A maioria dos arquivos estão aqui.
 </p>
+
+:file_folder: view/layout
+<br>
+<p>
+  Colocar aqui todos os arquivos .html, onde seu conteúdo será sempre fixo na página, ou seja nunca irá mudar naquela página. Conteúdos html dinâmicos, deverão ser programados nas classes de View.
+</p>
+
+:page_facing_up: ViewPadrao.php
+<br>
+<p>
+  Essa classe irá ler o conteúdo do respectivo arquivo .html da View (pasta view/layout), através do nome e inserir os conteúdos dinâmicos passados no controlador.
+  <br>
+  :warning: Todos os arquivos de View deverão estender <code>extends</code> dessa classe.
+</p>
+
+:page_facing_up: ModelPadrao.php
+<br>
+<p>
+  Aqui você deverá iniciar uma conexão com o banco de dados e realizar as principais operações, utilizando SQL, por exemplo <code>INSERT</code>, <code>UPDATE</code> e <code>DELETE</code>.
+  <br>
+  :warning: Todos os arquivos de Model deverão estender <code>extends</code> dessa classe.
+</p>
