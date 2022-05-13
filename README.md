@@ -98,4 +98,4 @@ Quando utilizamos programação orientada a objetos, é normal que criemos class
 </p>
 
 <br>
-<h1> Bora CODAR? :rocket: </h1>
+<h2> Bora CODAR? :rocket: </h2>
