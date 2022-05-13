@@ -98,4 +98,6 @@ Quando utilizamos programação orientada a objetos, é normal que criemos class
 </p>
 
 <br>
-<h2> Bora CODAR? :rocket: </h2>
+<h2> Bora CODAR!? :rocket: </h2>
+
+<h4>:pushpin: Critérios de Avaliação - vide EVALUATOR.md<h4>
