@@ -45,7 +45,7 @@ Quando utilizamos programação orientada a objetos, é normal que criemos class
 :page_facing_up: routes.php
 <br>
 <p>
-  Identifica a página solicitada através da variável global <code>$_GET['pg']</code>, cria uma instância do controlador dessa página e renderiza o conteúdo para ser exibido.
+  Identifica a página solicitada através da variável global <code>$_GET['pg']</code>, cria uma instância do controlador dessa página e renderiza o conteúdo para ser exibido. Cada nova página deverá ser adicionada aqui.
 </p>
 
 :page_facing_up: config.php
