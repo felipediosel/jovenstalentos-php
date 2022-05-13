@@ -58,6 +58,7 @@ Quando utilizamos programação orientada a objetos, é normal que criemos class
 <br>
 <p>
   Essa pasta e seus arquivos foram gerados automaticamente, utilizando o gerador de dependências Composer. Nela estão os arquivos responsáveis pelo funcionamento do AutoLoad. Portanto, por favor não alterem o conteúdo dos arquivos desta pasta, de preferência nem abram ela.
+  :no_entry_sign: Proibido modificar! :no_entry_sign:
 </p>
 
 :file_folder: app
@@ -69,13 +70,13 @@ Quando utilizamos programação orientada a objetos, é normal que criemos class
 :file_folder: view/layout
 <br>
 <p>
-  Colocar aqui todos os arquivos .html, onde seu conteúdo será sempre fixo na página, ou seja nunca irá mudar naquela página. Conteúdos html dinâmicos, deverão ser programados nas classes de View.
+  Colocar aqui todos os arquivos .html, onde seu conteúdo será sempre fixo na página, ou seja, nunca irá mudar. Conteúdos html dinâmicos, deverão ser programados nas classes de View.
 </p>
 
 :page_facing_up: ViewPadrao.php
 <br>
 <p>
-  Essa classe irá ler o conteúdo do respectivo arquivo .html da View (pasta view/layout), através do nome e inserir os conteúdos dinâmicos passados no controlador.
+   Essa classe irá ler o conteúdo do respectivo arquivo .html da View (pasta view/layout), através do nome e inserir os conteúdos dinâmicos passados no controlador. Exemplo: Arquivos .html que tiverem <code>{{exemplo}}</code> em seu conteúdo, será automaticamente substituído pelo conteúdo passado no controlador como <code>'exemplo' => 'Conteúdo de Exemplo'</code>.
   <br>
   :warning: Todas as classes de View deverão estender <code>extends</code> dessa classe.
 </p>
