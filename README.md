@@ -77,7 +77,7 @@ Quando utilizamos programação orientada a objetos, é normal que criemos class
 <p>
   Essa classe irá ler o conteúdo do respectivo arquivo .html da View (pasta view/layout), através do nome e inserir os conteúdos dinâmicos passados no controlador.
   <br>
-  :warning: Todos os arquivos de View deverão estender <code>extends</code> dessa classe.
+  :warning: Todas as classes de View deverão estender <code>extends</code> dessa classe.
 </p>
 
 :page_facing_up: ModelPadrao.php
@@ -85,5 +85,13 @@ Quando utilizamos programação orientada a objetos, é normal que criemos class
 <p>
   Aqui você deverá iniciar uma conexão com o banco de dados e realizar as principais operações, utilizando SQL, por exemplo <code>INSERT</code>, <code>UPDATE</code> e <code>DELETE</code>.
   <br>
-  :warning: Todos os arquivos de Model deverão estender <code>extends</code> dessa classe.
+  :warning: Todas as classes de Model deverão estender <code>extends</code> dessa classe.
+</p>
+
+:page_facing_up: ControllerPadrao.php
+<br>
+<p>
+  Responsável por identificar a ação que está sendo requisitada, através da variável global <code>$_GET['act']</code>, e chamar a respectiva função. Caso não for passada uma ação, por padrão apenas exibe a página.
+  <br>
+  :warning: Todas as classes de Controller deverão estender <code>extends</code> dessa classe.
 </p>
